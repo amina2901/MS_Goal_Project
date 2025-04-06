@@ -21,7 +21,7 @@ public class Goal implements Serializable {
     private String goalName;
 
     private LocalDateTime targetTime;
-
+    @Enumerated(EnumType.STRING)
     private Status status;
 
     private LocalDateTime createdAt;
